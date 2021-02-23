@@ -1,15 +1,14 @@
+import 'reflect-metadata';
 import express, { Request, Response } from 'express';
+import './database';
+import { router } from './routes';
 
 const app = express();
 
-app.get('/', (req: Request, res: Response) => {
-    return res.json({ message: "Hello World - NLW 04" });
-});
+app.use(express.json());
+app.use(router);
 
-app.post('/', (req: Request, res: Response) => {
-    return res.json({ message: "Os dados foram salvos com sucesso!" });
-});
-
-app.listen(3333, () => console.log("Server ir running!"));
+app.listen(3333, () => console.log("Server is running!"));
 
 // #rumoaoproximonivel
+// #jornadainfinita

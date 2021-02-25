@@ -3,6 +3,7 @@ import { getCustomRepository } from "typeorm";
 import { SurveyRepository } from "../Repositories/SurveyRepository";
 import { SurveyUserRepository } from "../Repositories/SurveyUserRepository";
 import { UserRepository } from "../Repositories/UserRepository";
+import SendMailService from "../services/SendMailService";
 
 class SendMailController {
 
@@ -30,6 +31,12 @@ class SendMailController {
             survey_id
         });
         await surveyUserRepository.save(surveyUser);
+        
+        await SendMailService.execute(
+            email, 
+            surveyAlreadyExists.title, 
+            surveyAlreadyExists.description
+        )
 
         return res.json(surveyUser);
 

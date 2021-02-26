@@ -13,6 +13,7 @@ https://blog.ncare.com.br/o-que-significa-nps/#:~:text=NPS%20%C3%A9%20a%20sigla%
 
 O NPS é resultado da seguinte fórmula:  (promotores - detratores) / respondentes x 100
 Onde temos:
+
 Notas: 1 2 3 4 5 6 7 8 9 10.
 Os votantes são divididos de acordo sua votação, sendo:
  Detratores => 0 - 6;

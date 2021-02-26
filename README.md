@@ -7,7 +7,7 @@ NPS é a sigla para Net Promoter Score, uma métrica apresentada em 2003 por Fre
 em um artigo da famosa Harvard Business Review. A proposta central do autor é que apenas uma pergunta
 precisa ser feita para mensurar a satisfação de um cliente com a empresa.
 
-(https://blog.ncare.com.br/o-que-significa-nps/#:~:text=NPS%20%C3%A9%20a%20sigla%20para,um%20cliente%20com%20a%20empresa.)
+https://blog.ncare.com.br/o-que-significa-nps/#:~:text=NPS%20%C3%A9%20a%20sigla%20para,um%20cliente%20com%20a%20empresa.
 
 ### Como é calculado o NPS?
 
